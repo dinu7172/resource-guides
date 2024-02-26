@@ -46,9 +46,6 @@ const page = async ({params}:{params:{id:string}}) => {
                         <div className="relative ml-28 mt-6 hidden h-[218px] w-[425px] lg:flex">
                             <Image
                                 alt="arrow"
-                                loading="lazy"
-                                decoding="async"
-                                data-nimg="fill"
                                 src="/assets/resources/images/arrow_trail.svg"
                                 style={{
                                     position: "absolute",
@@ -64,13 +61,10 @@ const page = async ({params}:{params:{id:string}}) => {
                 <div className="flex flex-1 justify-center lg:mb-12 lg:justify-end lg:pr-12">
                     <Image
                         alt="ebook image"
-                        loading="lazy"
                         width={370}
                         height={470}
-                        decoding="async"
                         className="rounded-lg object-contain lg:rotate-12"
                         src={resource.image}
-                        style={{ color: "transparent" }}
                     />
                 </div>
             </section>
