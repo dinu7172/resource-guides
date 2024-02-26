@@ -44,7 +44,7 @@ const page = async ({params}:{params:{id:string}}) => {
                             Download the Guide
                         </a>
                         <div className="relative ml-28 mt-6 hidden h-[218px] w-[425px] lg:flex">
-                            <img
+                            <Image
                                 alt="arrow"
                                 loading="lazy"
                                 decoding="async"
