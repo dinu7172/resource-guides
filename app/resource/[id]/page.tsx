@@ -62,7 +62,7 @@ const page = async ({params}:{params:{id:string}}) => {
                     </div>
                 </div>
                 <div className="flex flex-1 justify-center lg:mb-12 lg:justify-end lg:pr-12">
-                    <img
+                    <Image
                         alt="ebook image"
                         loading="lazy"
                         width={370}
