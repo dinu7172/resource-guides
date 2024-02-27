@@ -42,7 +42,7 @@ const page = async ({ searchParams }: Props) => {
           <Header
             query={searchParams?.query || ''}
             category={searchParams?.category || ''}
-            title="Resources"
+            
           />
 
           <div className="mt-12 flex w-full flex-wrap justify-center gap-4 sm:justify-start lg:gap-12">
